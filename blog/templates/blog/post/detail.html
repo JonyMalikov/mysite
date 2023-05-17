@@ -3,7 +3,7 @@
 {% block content %}
     <h1>{{ post.title }}</h1>
     <p class="date">
-        Published {{ post.publish }} by {{ post.author }}
+        Опубликованный {{ post.publish }} автор {{ post.author }}
     </p>
     {{ post.body|linebreaks }}
 {% endblock %}
