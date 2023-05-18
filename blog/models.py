@@ -12,19 +12,25 @@ class PublishedManager(models.Manager):
 
 class Post(models.Model):
     class Status(models.TextChoices):
-        DRAFT = 'DF', 'Draft'
-        PUBLISHED = 'PB', 'Published'
+        DRAFT = 'ЧР', 'Черновик'
+        PUBLISHED = 'ОБ', 'Опубликованный'
 
-    title = models.CharField(max_length=250)
-    slug = models.SlugField(max_length=250, unique_for_date='publish')
+    title = models.CharField(
+        max_length=250, verbose_name='Заголовок')
+    slug = models.SlugField(
+        max_length=250, unique_for_date='publish', verbose_name='URL')
     author = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name='blog_posts')
-    publish = models.DateTimeField(default=timezone.now)
-    body = models.TextField()
-    created = models.DateTimeField(auto_now_add=True)
-    updated = models.DateTimeField(auto_now=True)
+        User, on_delete=models.CASCADE, related_name='blog_posts', verbose_name='Автор')
+    publish = models.DateTimeField(
+        default=timezone.now, verbose_name='Дата публикации')
+    body = models.TextField(
+        verbose_name='Статья')
+    created = models.DateTimeField(
+        auto_now_add=True, verbose_name='Дата создания')
+    updated = models.DateTimeField(
+        auto_now=True, verbose_name='Дата редоктирования')
     status = models.CharField(
-        max_length=2, choices=Status.choices, default=Status.DRAFT)
+        max_length=2, choices=Status.choices, default=Status.DRAFT, verbose_name='Статус')
     object = models.Manager()
     published = PublishedManager()
 
@@ -33,6 +39,8 @@ class Post(models.Model):
         indexes = [
             models.Index(fields=['-publish'])
         ]
+        verbose_name = 'Статья'
+        verbose_name_plural = 'Статьи'
 
     def __str__(self):
         return self.title
