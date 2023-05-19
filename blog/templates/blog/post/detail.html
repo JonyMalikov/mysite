@@ -1,14 +1,33 @@
 {% extends "blog/base.html" %}
+
 {% block title %}{{ post.title }}{% endblock %}
+
 {% block content %}
-  <h1>{{ post.title }}</h1>
-  <p class="date">
-    Опубликованный {{ post.publish }} автор {{ post.author }}
-  </p>
-  {{ post.body|linebreaks }}
-  <p>
-    <a href="{% url "blog:post_share" post.id %}">
-      Поделиться публикацией
-    </a>
-  </p>
+    <h1>{{ post.title }}</h1>
+    <p class="date">
+        Опубликованный {{ post.publish }} автор {{ post.author }}
+    </p>
+    {{ post.body|linebreaks }}
+    <p>
+        <a href="{% url "blog:post_share" post.id %}">
+            Поделиться публикацией
+        </a>
+    </p>
+    {% with comments.count as total_comments %}
+        <h2>
+            {{ total_comments }} комментарий{{ total_comments|pluralize }}
+        </h2>
+    {% endwith %}
+    {% for comment in comments %}
+        <div class="comment">
+            <p class="info">
+                комментарий {{ forloop.counter }} создал {{ comment.name }}
+                {{ comment.created }}
+            </p>
+            {{ comment.body|linebreaks }}
+        </div>
+    {% empty %}
+        <p>Комментариев к статье еще не было.</p>
+    {% endfor %}
+    {% include "blog/post/includes/comment_form.html" %}
 {% endblock %}
