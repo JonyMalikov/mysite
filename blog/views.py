@@ -19,6 +19,9 @@ from blog.models import Post, Comment
 
 
 def post_list(request, tag_slug=None):
+    """
+    Представление списка постов
+    """
     post_list = Post.published.all()
     tag = None
     if tag_slug:
@@ -39,6 +42,9 @@ def post_list(request, tag_slug=None):
 
 
 def post_detail(request, year, month, day, post):
+    """
+    Представление полнлного поста
+    """
     post = get_object_or_404(Post,
                              status=Post.Status.PUBLISHED,
                              slug=post,

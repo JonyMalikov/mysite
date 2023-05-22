@@ -4,6 +4,9 @@ from .models import Post
 
 
 class PostSitemap(Sitemap):
+    """
+    Карты сайта.
+    """
     changefreq = 'weekly'
     priority = 0.9
 

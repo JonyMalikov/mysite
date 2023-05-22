@@ -8,6 +8,9 @@ from .models import Post
 
 
 class LatestPostsFeed(Feed):
+    """
+    Новостныe ленты для постов блога.
+    """
     title = 'My blog'
     link = reverse_lazy('blog:post_list')
     description = 'New posts of my blog.'
