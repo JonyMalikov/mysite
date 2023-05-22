@@ -4,6 +4,7 @@ from django.shortcuts import render, get_object_or_404
 from django.views.decorators.http import require_POST
 from django.db.models import Count
 from django.contrib.postgres.search import SearchVector
+from django.contrib.postgres.search import SearchVector, SearchQuery, SearchRank
 
 from taggit.models import Tag
 
@@ -109,6 +110,7 @@ def post_comment(request, post_id):
                    'form': form,
                    'comment': comment})
 
+
 def post_search(request):
     """ Представления поиска. """
     form = SearchForm()
@@ -118,8 +120,12 @@ def post_search(request):
         form = SearchForm(request.GET)
         if form.is_valid():
             query = form.cleaned_data['query']
+            search_vector = SearchVector('title', 'body')
+            search_query = SearchQuery(query)
             results = Post.published.annotate(
-                search=SearchVector('title', 'body'),).filter(search=query)
+                search=search_vector,
+                rank=SearchRank(search_vector, search_query)
+            ).filter(search=search_query).order_by('-rank')
     return render(request,
                   'blog/post/search.html',
                   {'form': form,
