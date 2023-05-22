@@ -1,4 +1,5 @@
 {% extends "blog/base.html" %}
+{% load blog_tags %}
 
 {% block title %}{{ post.title }}{% endblock %}
 
@@ -7,12 +8,21 @@
     <p class="date">
         Опубликованный {{ post.publish }} автор {{ post.author }}
     </p>
-    {{ post.body|linebreaks }}
+    {{ post.body|markdown }}
     <p>
         <a href="{% url "blog:post_share" post.id %}">
             Поделиться публикацией
         </a>
     </p>
+    <h2>Похожие посты</h2>
+    {% for post in similar_posts %}
+        <p>
+            <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+        </p>
+    {% empty %}
+        Подобных постов пока нет.
+    {% endfor %}
+
     {% with comments.count as total_comments %}
         <h2>
             {{ total_comments }} комментарий{{ total_comments|pluralize }}
