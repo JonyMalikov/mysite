@@ -3,7 +3,6 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.shortcuts import render, get_object_or_404
 from django.views.decorators.http import require_POST
 from django.db.models import Count
-from django.contrib.postgres.search import SearchVector
 from django.contrib.postgres.search import SearchVector, SearchQuery, SearchRank
 
 from taggit.models import Tag
@@ -12,11 +11,6 @@ from blog.forms import EmailPostForm, CommentForm, SearchForm
 from blog.models import Post, Comment
 
 
-# class PostListView(ListView):
-#     queryset = Post.published.all()
-#     context_object_name = 'posts'
-#     paginate_by = 3
-#     template_name = 'blog/post/list.html'
 
 
 def post_list(request, tag_slug=None):
