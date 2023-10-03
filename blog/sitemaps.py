@@ -7,7 +7,8 @@ class PostSitemap(Sitemap):
     """
     Карты сайта.
     """
-    changefreq = 'weekly'
+
+    changefreq = "weekly"
     priority = 0.9
 
     def items(self):

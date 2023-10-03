@@ -1,0 +1,1219 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-05-16T20:33:44.427Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "покемон",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-05-16T22:43:10.734Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "покемон",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-05-17T21:09:58.516Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Ратикэйт",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-05-17T21:10:49.319Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Спироу",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-05-17T21:11:57.160Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Метапод",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-05-17T21:12:41.749Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Баттерфри",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-05-18T07:26:03.692Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "покемон",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-05-18T07:26:15.777Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Ратикэйт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-05-18T07:26:25.724Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Баттерфри",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-05-18T07:26:35.662Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Метапод",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-05-18T07:26:46.930Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Спироу",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-05-19T20:31:49.777Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by я on покемон",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-05-19T20:49:00.987Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Golurk",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-05-19T21:51:38.336Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Водяной",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"\\u043f\\u043e\\u043a\\u0435\\u043c\\u043e\\u043d tagged with \\u0412\\u043e\\u0434\\u044f\\u043d\\u043e\\u0439\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-05-19T21:57:00.115Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Водяной",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-05-19T21:57:40.630Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "покемон",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-05-19T21:58:22.092Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Баттерфри",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-05-19T21:59:26.580Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "бабочка",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"\\u0420\\u0430\\u0442\\u0438\\u043a\\u044d\\u0439\\u0442 tagged with \\u0431\\u0430\\u0431\\u043e\\u0447\\u043a\\u0430\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-05-19T22:04:38.133Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "pokemon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-05-22T09:09:53.519Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Lucario",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-05-22T09:40:44.922Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "покемон",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-05-22T09:41:38.679Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Ратикэйт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-05-22T09:42:39.427Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Спироу",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-05-22T09:43:25.189Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Метапод",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-05-22T09:44:05.754Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Баттерфри",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-05-22T09:44:37.554Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Golurk",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-05-22T09:45:16.743Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Lucario",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-05-22T11:21:42.980Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Markdown post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-05-22T12:13:22.350Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "localhost:8000",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$ouUKe4IrYn8Gp91VnslI29$mbdrQz0RSIgno71Khb/ReU7meKT0uEvDA+Zj0rU4vs4=",
+    "last_login": "2023-05-16T20:31:33.947Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "root@ya.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-05-16T20:31:11.961Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rq2v1uytat9zpknh7s4ovnoqvh2frqvf",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAGKFiX7nsGMjOAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hjuIiQJx-N0J-pLqDeMd6a5JbXZeZ5K7Ig3Y5tZie18P9OyjYy7fOeDaKFWQ2iOOYnTc8JG0jMLF3kNWgyaJDT1GD0t4yJEBAB8Q2OfH-APREODc:1pz1KX:LJ_TtFr-HeHX5PxrXiP14KfNOwBnH8X6orQObSzdbgA",
+    "expire_date": "2023-05-30T20:31:33.962Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "покемон",
+    "slug": "pokemon",
+    "author": 1,
+    "publish": "2023-05-16T20:31:43Z",
+    "body": "«Покемо́н» (яп. ポケットモンスター покэтто монсута:[~ 1], англ. Pokémon, от англ. Pocket Monster — «Карманный монстр»[1]) — популярная[2][3] медиафраншиза, созданная Сатоси Тадзири в 1996 году. Товарный знак «Покемон» принадлежит The Pokémon Company. «Покемон» впервые появился как пара игр, разработанных студией Game Freak, и после этого стал второй в мире по популярности серией компьютерных игр, уступив Mario[4][5] от Nintendo. В 2020 году общая стоимость франшизы «Покемон» оценивалась в 95 миллиардов долларов США[6] и она является одной из самых кассовых медиафраншиз за всю историю. По мотивам игр существует аниме, пользующееся колоссальным успехом в мире, а также манга, коллекционная карточная игра и прочие сопутствующие товары[2][3][7][8]. С июля 2016 года получила широчайшее распространение по миру и серьёзный общественный резонанс игра Pokémon Go для iOS и Android для интерактивной ловли покемонов в виртуально дополненном реальном мире (на реальных объектах по всей территории планеты).\r\n\r\nСамо слово «покемон» обозначает существо, обладающее сверхъестественными способностями. По состоянию на январь 2023 года существует 1008 разновидностей покемонов[9]. В вымышленной истории «Покемона» люди, называющиеся тренерами покемонов, обучают их для сражений с покемонами других тренеров. Бои проходят до момента, пока один из покемонов не падает без сознания или его тренер не сдаётся, — до смерти схватки не происходят никогда. Как правило, сильные и опытные тренеры покемонов пользуются уважением.",
+    "created": "2023-05-16T20:33:44.412Z",
+    "updated": "2023-05-22T09:40:44.911Z",
+    "status": "ОБ"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Ратикэйт",
+    "slug": "ratikejt",
+    "author": 1,
+    "publish": "2023-05-17T21:07:33Z",
+    "body": "Ратикэйт — покемон-крыса. Шерсть у него в основном коричневого цвета, лишь чуть светлее она на брюхе. Лапки короткие, с тремя когтистыми пальчиками; хвост, как у его прообраза — крысы, длинный и не покрыт шерстью. На голове расположены глаза, уши, нос, усы и рот с большими резцами, характерными для грызунов. Зубы у ратикэйта растут постоянно, поэтому он вечно грызёт, чтобы резцы стирались и оставались положенной длины. Грызёт он всё подряд от коры до камней.\r\n\r\nДлинные усы на морде нужны для равновесия. Без них ратикэйт будет двигаться медленнее, боясь упасть. У самок усы короче и шерсть светлее, чем у самцов. На задних лапках есть перепонки, с их помощью ратикэйт отлично плавает в воде, так он и за рыбой охотится и реки переплывает в поисках пищи на другом берегу.\r\n\r\nВ Алоле Ратикейт стал тяжелее и темнее из-за городской среды и более калорийной диеты. Его мех в основном черный с коричневым пятном в форме листа на животе и коричневыми раковинами ушей. Его руки, ноги, щеки и хвост беловато-кремового цвета, а руки намного меньше. У него есть большие, пухлые щеки с четырьмя усиками под его подбородком и двумя прорастающими сбоку от вершины каждой щеки. Его большие резцы все ещё видны, но его глаза теперь красные. Ратикэйт использует свое гнездо в качестве запаса продовольствия и обычно предпочитает, чтобы Раттаты региона Алола, которыми он командует, собирали пищу, пока он остается в своем гнезде и ест. Он избирателен в том, что он ест, и ест только свежие, высококачественные продукты. Ходят слухи, что некий высококлассный ресторан даже использует эту избирательность, привлекая Ратикэйта к покупке ингредиентов и позволяя ему попробовать новые блюда на вкус.",
+    "created": "2023-05-17T21:09:58.516Z",
+    "updated": "2023-05-22T09:41:38.664Z",
+    "status": "ОБ"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Спироу",
+    "slug": "spirou",
+    "author": 1,
+    "publish": "2023-05-17T21:10:02Z",
+    "body": "Спироу — маленький птичий покемон с грубым коричневым оперением на голове и тремя коричневыми хвостовыми перьями. У него узкие темно-карие глаза с белыми зрачками и короткий крючковатый клюв светло-розового цвета. Перья, покрывающие его крылья, розовато-красные с более светлыми кончиками, а нижняя сторона бежевая с двумя тонкими горизонтальными полосками. На его светло-розовых лапках два пальца спереди и один сзади. Спину покрывают чёрные перья.",
+    "created": "2023-05-17T21:10:49.319Z",
+    "updated": "2023-05-22T09:42:39.381Z",
+    "status": "ОБ"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Метапод",
+    "slug": "metapod",
+    "author": 1,
+    "publish": "2023-05-17T21:11:35Z",
+    "body": "Метапод — покемон-кокон зеленого цвета. То, что мы видим — это лишь оболочка, защита для очень уязвимого тела покемона в данный этап развития. Сама по себе и оболочка не слишком твёрдая, но у метапода есть способы делать её настолько твёрдой, что даже сильному покемону сложно пробить. И всё же, если метапод не успеет защитить себя, всегда есть вероятность, что оболочка разрушится и покемон вывалится наружу (хотя в аниме этот способ не показан). Ещё будучи катерпи, покемон хорошо наелся и запас питательные вещества, ведь находясь в такой броне, в поисках еды особо не набегаешься. А запас энергии покемону жизненно необходим. Всё время пребывания в коконе метапод терпеливо и неподвижно ждёт, пока природа делает своё дело и преобразует тело гусеницы в бабочку.",
+    "created": "2023-05-17T21:11:57.144Z",
+    "updated": "2023-05-22T09:43:25.143Z",
+    "status": "ОБ"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Баттерфри",
+    "slug": "batterfri",
+    "author": 1,
+    "publish": "2023-05-17T21:12:19Z",
+    "body": "Баттерфри — покемон-бабочка фиолетового цвета. У баттерфри большие, роскошные крылья белого цвета с чёрными краями. Большие, овальные глаза баттерфри красные. На голове торчат два длинных усика. Передние лапки покемона очень короткие. Задние малы в высоту, зато имеют большую длину стоп, благодаря чему покемон может, стоя, удерживать равновесие, несмотря на перевешивающие крылья за спиной. У самочек баттерфри на нижних крыльях есть чёрные пятна.",
+    "created": "2023-05-17T21:12:41.733Z",
+    "updated": "2023-05-22T09:44:05.723Z",
+    "status": "ОБ"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Golurk",
+    "slug": "golurk",
+    "author": 1,
+    "publish": "2023-05-19T20:45:53Z",
+    "body": "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
+    "created": "2023-05-19T20:49:00.971Z",
+    "updated": "2023-05-22T09:44:37.523Z",
+    "status": "ОБ"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Lucario",
+    "slug": "lucario",
+    "author": 1,
+    "publish": "2023-05-22T09:07:38Z",
+    "body": "Лукарио — двуногий покемон, похожий на собаку/волка/шакала, с несколькими характеристиками, похожими на енота. Хотя внешне он похож на Риолу, у Лукарио есть некоторые заметные отличия, такие как более красные глаза. Его передние лапы черные, и у него есть большие заостренные шипы вместо овальных бугорков на Риолу. Есть также третий шип, выступающий в середине груди. Уши и морда Лукарио длиннее по сравнению с Риолу, но он сохраняет черную «маску» и красные глаза. К «маске» также добавлена верхняя полоса. У него также есть четыре черных сенсорных пучка на затылке, в отличие от Риолу, у которого было только два и ранее они располагались сбоку от головы. Кроме того, туловище Лукарио покрыто желтым мехом с более толстыми пятнами на воротнике. Когда его рот открыт, можно увидеть четыре больших клыка, два сверху и два снизу",
+    "created": "2023-05-22T09:09:53.503Z",
+    "updated": "2023-05-22T09:45:16.680Z",
+    "status": "ОБ"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Markdown post",
+    "slug": "markdown-post",
+    "author": 1,
+    "publish": "2023-05-22T11:20:00Z",
+    "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n*This is emphasized* and **this is more emphasized**.\r\nHere is a list:\r\n* One\r\n* Two\r\n* Three\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+    "created": "2023-05-22T11:21:42.948Z",
+    "updated": "2023-05-22T11:21:42.948Z",
+    "status": "ОБ"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "name": "я",
+    "email": "malikov.evgeniy@gmail.com",
+    "body": "приколььно",
+    "created": "2023-05-19T20:18:15.733Z",
+    "updated": "2023-05-19T20:31:49.762Z",
+    "active": false
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "покемон",
+    "slug": "покемон"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "pokemon",
+    "slug": "pokemon"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "двуногий",
+    "slug": "двуногий"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "pokemon rat",
+    "slug": "pokemon-rat"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "small bird pokemon",
+    "slug": "small-bird-pokemon"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "cocoon pokemon",
+    "slug": "cocoon-pokemon"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "butterfly pokemon",
+    "slug": "butterfly-pokemon"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "bipedal pokemon",
+    "slug": "bipedal-pokemon"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 2,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]
